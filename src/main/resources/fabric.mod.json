@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "editable-player-nbt-hack",
+  "version": "${version}",
+  "name": "Editable Player NBT Hack",
+  "description": "Removes the probably artificial limitation in the vanilla game of disallowing the editing of player NBT data.",
+  "authors": ["Lilly Rosaline"],
+  "contact": {
+    "website": "https://waterlilly.dev/mods/editableplayernbthack",
+    "repo": "https://git.waterlilly.dev/mods/editableplayernbthack.git"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "editable-player-nbt-hack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
