@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.waterlilly.editableplayernbthack.mixin",
+  "package": "dev.waterlilly.lem.editableplayernbthack.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "AllowPlayerDataEditMixin"
